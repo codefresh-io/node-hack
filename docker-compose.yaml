@@ -1,0 +1,9 @@
+version: '2'
+services:
+  aqua:
+    image: scalock/scanner-cli
+    environment:
+      - USER=codefresh
+      - PASSWORD=CodeFresh123
+      - HOST=http://demo.aquasec.com
+    command : ["Docker Hub", "busybox:latest"]

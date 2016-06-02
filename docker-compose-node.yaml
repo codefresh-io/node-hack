@@ -1,0 +1,6 @@
+version : '2'
+services:
+   nodehack:
+      image: verchol/nodehack:master
+      ports:
+       - 1337
